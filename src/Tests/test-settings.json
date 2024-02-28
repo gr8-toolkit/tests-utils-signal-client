@@ -1,0 +1,37 @@
+{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Debug",
+      "Override": {
+        "GR8Tech.Sport.TestUtils.SignalRClient.Implementation": "Debug"
+      }
+    }
+  },
+  "SignalRSettings": {
+    "DefaultConnectionConfig": {
+      "BufferSize": 5000,
+      "WaiterSettings": {
+        "RetryCount": 6,
+        "Interval": "00:00:01"
+      },
+      "MessageProtocol": "Json",
+      "ServerTimeout": "00:01:00",
+      "HandshakeTimeout": "00:00:10",
+      "KeepAliveInterval": "00:00:10"
+    },
+    "Connections": {
+      "local": {
+        "Url": "http://localhost:5026/testServiceHub",
+        "MessageProtocol": "Json",
+        "ServerTimeout": "00:01:00",
+        "HandshakeTimeout": "00:00:10",
+        "KeepAliveInterval": "00:00:10",
+        "BufferSize": 5000,
+        "WaiterSettings": {
+          "RetryCount": 6,
+          "Interval": "00:00:01"
+        }
+      }
+    }
+  }
+}

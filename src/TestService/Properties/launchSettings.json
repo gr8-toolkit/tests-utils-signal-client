@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "TestService": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5026"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "SignalRSettings": {
+    "DefaultConnectionConfig": {
+      "BufferSize": 5000,
+      "WaiterSettings": {
+        "RetryCount": 30,
+        "Interval": "00:00:01"
+      },
+      "MessageProtocol": "Json",
+      "ServerTimeout": "00:01:00",
+      "HandshakeTimeout": "00:00:10",
+      "KeepAliveInterval": "00:00:10"
+    },
+    "Connections": {
+      "local": {
+        "Url": "http://localhost:5887/hello",
+        "MessageProtocol": "Json",
+        "ServerTimeout": "00:01:00",
+        "HandshakeTimeout": "00:00:10",
+        "KeepAliveInterval": "00:00:10",
+        "BufferSize": 5000,
+        "WaiterSettings": {
+          "RetryCount": 30,
+          "Interval": "00:00:01"
+        }
+      }
+    }
+  }
+}

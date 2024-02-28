@@ -1,0 +1,51 @@
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vscode
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+# C#
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Xx]64/
+[Xx]86/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
+
+.DS_Store
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# JetBrains Rider
+*.idea/
+/.idea
+*.sln.iml
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
